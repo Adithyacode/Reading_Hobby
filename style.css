@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    padding-top: 100px;
+}
+img {
+    height: 400px;
+    width: 450px;
+    opacity: 10;
+}
+.menu {
+    top: 15px;
+    right: 30px;
+    position: fixed;
+    z-index: 70;
+    padding-left: 10px;
+    background-color: aqua;
+}
+.links:hover {
+    color: mediumaquamarine;
+}
+.parallax-inner {
+    background-color:cadetblue;
+}
+.parallax-container {
+    background-color: white;
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: serif;
+    font-size: 20px;
+}
+.Awesome {
+    height: 400px;
+    width: 450px;
+}
+.Awesome:hover {
+    transition: transform;
+    transform: scale(0.9)
+}
+.colorfull {
+    background-color: aquamarine;
+    font-family: 'Festive', cursive;
+}
